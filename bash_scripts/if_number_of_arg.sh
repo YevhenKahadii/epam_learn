@@ -1,7 +1,7 @@
 #- create a script called my_script.sh that does the following:
 #takes any number of arguments
 #if there are less than 2 arguments, output the values of these arguments
-#if there are more than 2 but less than 4 arguments, output only the last argument
+#if there are more than./if 2 but less than 4 arguments, output only the last argument
 #else output "Invalid number of arguments" message
 #- run my_script.sh with the following arguments:
 #hello

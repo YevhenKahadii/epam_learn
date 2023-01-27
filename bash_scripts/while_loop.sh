@@ -22,7 +22,7 @@ do
         $command
     fi
 done
-Footer
+
 
 
 

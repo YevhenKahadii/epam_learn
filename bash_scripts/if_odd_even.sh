@@ -11,8 +11,8 @@
 
 
 #!/bin/bash
-var=$1
-if (( ${#var} % 2 == 0 ))
+VAR=$1
+if (( ${#VAR} % 2 == 0 ))
 then
     echo "Even"
 else 

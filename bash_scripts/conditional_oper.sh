@@ -45,13 +45,13 @@ fi
 #env
 [[ -z $TEST ]]; echo "Exit code of [[ -z $TEST ]] is $?"
 
-if [[ "$3" -ne "$4" ]]; then 
+if [[ $3 -ne $4 ]]; then 
   	echo "EXIT code of [[ "$3" -ne "$4" ]] is $?"
 else
   	echo "Exit code of [[ "$3" -ne "$4" ]] is $?"
 fi
 
-if (( "$3" >= "$4" )); then
+if [[ $3 -ge $4 ]]; then
 	echo "Exit code of (( "$3" >= "$4" )) is $?"
 else 
   	echo "Exit code of (( "$3" >= "$4" )) is $?"

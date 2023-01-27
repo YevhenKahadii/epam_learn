@@ -18,9 +18,9 @@
 #- second script run results contain 0 as the last output
 
 #!/bin/bash
-echo "print the name of the sript $0"
-echo "print all arguments $*"
-echo "print the number of arguments passed yo the script S#"
-echo "print 2nd and 4th argument $2 $4"
+echo "print the name of the sript: $0"
+echo "print all arguments: $*"
+echo "print the number of arguments passed you the script: $#" 
+echo "print 2nd and 4th argument: $2 $4"
 [[ $1 -eq $2 ]]
-echo "print the exit code of -eq operation on 1st and 2nd arguments $?"
+echo "print the exit code of -eq operation on 1st and 2nd arguments: $?"
